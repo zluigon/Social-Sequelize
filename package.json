@@ -1,0 +1,25 @@
+{
+  "name": "social-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiverseLearningProducts/Social-Sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MultiverseLearningProducts/Social-Sequelize/issues"
+  },
+  "homepage": "https://github.com/MultiverseLearningProducts/Social-Sequelize#readme",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "sequelize": "^6.30.0",
+    "sqlite3": "^5.1.6"
+  }
+}
