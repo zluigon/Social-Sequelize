@@ -18,17 +18,17 @@ You have created a brand new social media network called Social Sequelize. The f
 2. In `models/Profile.js`, create a `Profile` model with the following properties:
     - `bio`: A string
     - `profilePicture`: A string
-    - `birthday`: A date 
+    - `birthday`: A date formatted as a string
 3. In `models/Post.js`, create a `Post` model with the following properties:
     - `title`: A string
     - `body`: A string
-    - `createdAt`: A date
+    - `createdAt`: A date formatted as a string
 4. In `models/Comment.js`, create a `Comment` 
     - `body`: A string 
-    - `createdAt`: A date
+    - `createdAt`: A date formatted as a string
 5. In `models/Like.js`, create a `Like` model with the following properties: 
     - `reactionType`: A string
-    - `createdAt`: A date
+    - `createdAt`: A date formatted as a string
 6. In `index.js`, define the following associations:
     - A `User` can have one `Profile` and vice versa.
     - A `User` can have many `Post` instances, but a `Post` can only have one `User`.
