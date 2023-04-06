@@ -7,8 +7,7 @@ describe('Social Sequelzie Test', () => {
      */
     beforeAll(async () => {
         // the 'sync' method will create tables based on the model class
-        // by setting 'force:true' the tables are recreated each time the 
-        // test suite is run
+        // by setting 'force:true' the tables are recreated each time the test suite is run
         await sequelize.sync({ force: true });
     })
 
