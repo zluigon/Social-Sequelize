@@ -27,11 +27,12 @@ You have created a brand new social media network called Social Sequelize. The f
     - `body`: A string 
     - `createdAt`: A date
 5. In `models/Like.js`, create a `Like` model with the following properties: 
-    - `reactionType`: a string
-    - `createdAt` 
+    - `reactionType`: A string
+    - `createdAt`: A date
 6. In `index.js`, define the following associations:
     - A `User` can have one `Profile` and vice versa.
     - A `User` can have many `Post` instances, but a `Post` can only have one `User`.
     - A `Post` can have many `Comment` instances, but a `Comment` can only have one `Post`.
     - A `User` can have many `Like` instances and vice versa.
 7. Write unit tests to ensure that the connection works and the associations are set up correctly.
+    - Seed data has been created in the `seed` directory. Feel free to use this in your test creation!
