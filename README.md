@@ -11,7 +11,7 @@ You have created a brand new social media network called Social Sequelize. The f
 - Create unit tests to ensure connection works, models function properly, and association are set up correctly.
 
 ## Tasks
-1. In `db.js`, create a sequelize connection to a database.
+1. In `db/connection.js`, create a sequelize connection to a database.
 2. In `models/User.js`, define a `User` model with the following properties:
     - `username`: A string
     - `email`: A string
