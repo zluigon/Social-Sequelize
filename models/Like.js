@@ -1,6 +1,4 @@
 
 let Like;
 
-module.exports = {
-    Like,
-}
+module.exports = Like;

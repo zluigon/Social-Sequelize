@@ -2,6 +2,4 @@
 let Post;
 
 
-module.exports = {
-    Post,
-}
+module.exports = Post;

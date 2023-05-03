@@ -1,10 +1,9 @@
-const { Comment } = require("./models/Comment");
-const { Like } = require("./models/Like");
-const { Post } = require("./models/Post");
-const { Profile } = require("./models/Profile");
-const { User } = require("./models/User");
+const { Comment, Like, Post, Profile, User } = require("./models/index");
 
 // Define your associations here
+
+
+
 
 
 module.exports = {

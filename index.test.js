@@ -1,5 +1,5 @@
 const { Comment, Like, Post, Profile, User } = require("./index");
-const { sequelize } = require('./db');
+const { db } = require('./db/connection.js');
 
 describe('Social Sequelzie Test', () => {
     /**
