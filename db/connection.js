@@ -9,5 +9,4 @@ const db = new Sequelize({
 module.exports = {
   db,
   DataTypes,
-  Sequelize,
 };
